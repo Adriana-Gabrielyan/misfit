@@ -1,0 +1,20 @@
+<!-- services -->
+<div class="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="titlepage">
+          <h2>Our Services</h2>
+          <p>The point of using Lorem Ipsum is that it has a more-or-less</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <app-service-image [ngClass]="'col-md-4'"
+        *ngFor="let image of images"
+        [image]="image"
+      ></app-service-image>
+    </div>
+  </div>
+</div>
+<!-- end services -->

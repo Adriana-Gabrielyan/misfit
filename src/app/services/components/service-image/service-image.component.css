@@ -1,0 +1,19 @@
+.se_img {
+    text-align: center;
+    background-color: #000;
+    margin-bottom: 30px;
+}
+
+.se_img figure {
+    margin: 0;
+}
+
+.se_img figure img {
+    width: 100%;
+    transition: all .5s;
+}
+
+.se_img figure img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

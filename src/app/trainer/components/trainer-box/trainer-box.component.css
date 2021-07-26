@@ -1,0 +1,56 @@
+.trainer_box .trainer_img {
+    overflow: hidden;
+}
+
+.trainer_box .trainer_img figure {
+    margin: 0;
+}
+
+.trainer_box .trainer_img figure img {
+    width: 100%;
+    transition: all .5s;
+}
+
+.trainer_box .trainer_img figure img:hover {
+    transform: scale(1.2);
+}
+
+.trainer_box .trainer {
+    padding: 33px 30px;
+    text-align: center;
+}
+
+.trainer_box .trainer h3 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    transition: ease-in all 0.5s;
+    margin: auto;
+}
+
+.trainer_box .trainer p {
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    transition: ease-in all 0.5s;
+}
+
+#trai:hover.trainer_box {
+    background-color: #fff;
+    transition: ease-in all 0.5s;
+}
+
+#trai:hover .trainer h3 {
+    color: #00274a;
+    transition: ease-in all 0.5s;
+}
+
+#trai:hover .trainer p {
+    color: #000000;
+    transition: ease-in all 0.5s;
+}

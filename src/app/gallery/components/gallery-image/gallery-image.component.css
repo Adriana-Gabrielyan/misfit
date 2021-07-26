@@ -1,0 +1,18 @@
+.gallery_img :hover {
+  transform: scale(1.2);
+  transition: ease-in all 0.3s;
+}
+
+.gallery_img {
+  width: 100%;
+  transition: ease-in all 0.3s;
+  margin-bottom: 30px;
+  display: block;
+  overflow: hidden;
+}
+
+.gallery_img img {
+  width: 100%;
+  transition: ease-in all 0.3s;
+  display: block;
+}
