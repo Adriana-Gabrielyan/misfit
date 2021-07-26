@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { GalleryRoutingModule } from './gallery-routing.module';
 import { GalleryImageComponent } from './components/gallery-image/gallery-image.component';
+import {CrystalLightboxModule} from '@crystalui/angular-lightbox';
 
 
 
@@ -13,7 +14,8 @@ import { GalleryImageComponent } from './components/gallery-image/gallery-image.
   ],
   imports: [
     CommonModule,
-    GalleryRoutingModule
+    GalleryRoutingModule,
+    CrystalLightboxModule
   ],
   exports:[
     GalleryComponent

@@ -13,7 +13,11 @@
       <div class="tz-gallery">
         <div class="col-sm-12">
           <div class="row">
-            <app-gallery-image [ngClass]="'col-sm-6 col-md-4'" *ngFor="let image of images" [image]="image"></app-gallery-image>
+            <app-gallery-image
+              [ngClass]="'col-sm-6 col-md-4'"
+              *ngFor="let image of images"
+              [image]="image"
+            ></app-gallery-image>
           </div>
         </div>
       </div>
