@@ -48,7 +48,7 @@
     color: #fff;
 }
 
-.stewart .read_more {
+.stewart button[class^="read_more"] {
     max-width: 205px;
     height: 53px;
     padding: 10px 0;
@@ -62,8 +62,8 @@
     background-color: #121212;
 }
 
-#myCarousel a.carousel-control-next,
-#myCarousel a.carousel-control-prev {
+ a.carousel-control-next,
+a.carousel-control-prev {
     top: 80%;
     background: #111;
     opacity: 1;
@@ -74,20 +74,20 @@
     border-radius: 50%;
 }
 
-#myCarousel a.carousel-control-next:focus,
-#myCarousel a.carousel-control-next:hover,
-#myCarousel a.carousel-control-prev:focus,
-#myCarousel a.carousel-control-prev:hover {
+ a.carousel-control-next:focus,
+ a.carousel-control-next:hover,
+a.carousel-control-prev:focus,
+a.carousel-control-prev:hover {
     background: #fff;
     color: #111;
 }
 
-#myCarousel a.carousel-control-prev {
+a.carousel-control-prev {
     position: absolute;
     left: 8%;
 }
 
-#myCarousel a.carousel-control-next {
+a.carousel-control-next {
     position: absolute;
     right: 81%;
 }

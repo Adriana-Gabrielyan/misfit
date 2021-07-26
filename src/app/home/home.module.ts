@@ -10,24 +10,28 @@ import { TrainerModule } from '../trainer/trainer.module';
 import { GalleryModule } from '../gallery/gallery.module';
 import { ContactModule } from '../contact/contact.module';
 import { HomeRoutingModule } from './home-routing.module';
+import { SharedModule } from '../shared/shared.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 @NgModule({
   declarations: [
     BannerComponent,
-    HomeComponent, 
+    HomeComponent
   ],
   imports: [
     CommonModule,
+    HomeRoutingModule,
     AboutModule,
     ServicesModule,
     NewsModule,
     TrainerModule,
     GalleryModule,
     ContactModule,
-    HomeRoutingModule
-  ],
-  exports:[
-    BannerComponent,
+    SharedModule,
+    FontAwesomeModule,
+    NgbModule
   ]
 })
 export class HomeModule { }
