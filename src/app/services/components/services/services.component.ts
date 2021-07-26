@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServicesComponent implements OnInit {
  images = [
-   '/assets/images/service1.jpg',
-   '/assets/images/service2.jpg',
-   '/assets/images/service3.jpg'
+   './assets/images/service1.jpg',
+   './assets/images/service2.jpg',
+   './assets/images/service3.jpg'
  ]
   constructor() { }
 
