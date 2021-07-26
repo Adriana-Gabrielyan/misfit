@@ -1,7 +1,7 @@
 /** trainers section **/
 
 .trainers {
-    background: url(./assets/images/tra_bg.jpg);
+    background: url('../../../../assets/images/tra_bg.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 60px 0 30px 0;
